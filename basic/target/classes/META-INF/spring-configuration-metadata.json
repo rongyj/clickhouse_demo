@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "clickhouse",
+      "type": "com.github.clickhouse.config.JdbcParamConfig",
+      "sourceType": "com.github.clickhouse.config.JdbcParamConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "clickhouse.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.github.clickhouse.config.JdbcParamConfig"
+    },
+    {
+      "name": "clickhouse.initial-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.github.clickhouse.config.JdbcParamConfig"
+    },
+    {
+      "name": "clickhouse.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.github.clickhouse.config.JdbcParamConfig"
+    },
+    {
+      "name": "clickhouse.max-wait",
+      "type": "java.lang.Integer",
+      "sourceType": "com.github.clickhouse.config.JdbcParamConfig"
+    },
+    {
+      "name": "clickhouse.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.github.clickhouse.config.JdbcParamConfig"
+    },
+    {
+      "name": "clickhouse.password",
+      "type": "java.lang.String",
+      "sourceType": "com.github.clickhouse.config.JdbcParamConfig"
+    },
+    {
+      "name": "clickhouse.url",
+      "type": "java.lang.String",
+      "sourceType": "com.github.clickhouse.config.JdbcParamConfig"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,25 @@
+server:
+  port: 7788
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+    context-path: /
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+clickhouse:
+  driverClassName: ru.yandex.clickhouse.ClickHouseDriver
+  url: jdbc:clickhouse://192.168.56.101:8123/default
+  initialSize: 10
+  maxActive: 100
+  minIdle: 10
+  maxWait: 6000
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.github.clickhouse.entity
